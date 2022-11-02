@@ -213,33 +213,21 @@
 			<div class="row contacto justify-content-center" id="contacto">
 				<div class="col-12 col-lg-8">
 					<h2 class="titulo">Contact</h2>
-					<form action="#contacto" method="POST" role="form" class="formulario">
+					<form action="https://formsubmit.co/danielsainz28mail.com" method="POST">
 						<div class="form-group row">
 							<div class="col-12 col-md-6">
-								<input type="text" name="nombre" id="nombre" placeholder="Name"
-									value="<?php if(!$enviado && isset($nombre) echo $nombre)?>">
+								<input type="text" name="nombre" id="nombre" placeholder="Name" value="">
 							</div>
 							<div class="col-12 col-md-6">
-								<input type="email" name="email" id="email" placeholder="E-mail"
-									value="<?php if(!$enviado && isset($email) echo $email)?>">
+								<input type="email" name="email" id="email" placeholder="E-mail" value="">
 							</div>
 						</div>
-						<textarea name="correo" id="correo"
-							placeholder="message"><?php if(!$enviado && isset($correo) echo $correo)?></textarea>
+						<textarea name="comments" id="comments" placeholder="message"></textarea>
 
-						<?php if (!empty($errores)) : ?>
-						<div class="alert-error">
-							<?php echo $errores; ?>
-						</div>
-						<?php elseif($enviado): ?>
-						<div class="alert-success">
-							<p>You message was suessfully send </p>
-						</div>
-						<?php endif ?>
 
 						<!--Recapcha Google-->
-						<div class="g-recaptcha" data-sitekey="6LcCI7QZAAAAAFXqPTNwVrnMR_7Ot_IW0Y7j10Xo"></div>
-						<br>
+						<!--<div class="g-recaptcha" data-sitekey="6LcCI7QZAAAAAFXqPTNwVrnMR_7Ot_IW0Y7j10Xo"></div>
+						<br>-->
 
 						<div class="form-group d-flex justify-content-center">
 							<input type="submit" class="boton" name="submit" value="submit">
