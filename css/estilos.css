@@ -80,30 +80,6 @@ header{
 	padding-top: 25px;
 }
 
-.acerca-de .info .resumen{
-	letter-spacing: 1px;
-}
-
-.acerca-de .info .label{
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 10px;
-}
-
-.acerca-de .info .progress{
-
-	border-radius: 0;
-	margin-bottom: 15px;
-}
-
-
-.acerca-de .info .progress-bar{
-	height: 15px;
-	background:#a2c0f2;
-	line-height: 25px;
-	padding-left: 20px;
-}
-
 
 /* -- Portafolio--*/
 
@@ -205,35 +181,10 @@ header{
 
 }
 
-.g-recaptcha{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-
-
-.alert{
-	padding: 1em;
-	color:#fff;
-	border-radius: 2px;
-	margin-bottom: 50px;
-	font-size: 14px;
-}
-
-.alert.error{
-	background: #F2DEDE;
-	border: 1px solid #a94442;
-	color:#a94442;
-}
-
-.alert.success{
-	background: #4CAF50;
-}
-
-
 .formulario .boton:hover {
 	background: #1ba0ef;
+	padding: 8px 34px;
+	color:#000;
 }
 
 .redes-sociales {
@@ -253,7 +204,7 @@ header{
 	margin: 0px 20px;
 	text-decoration: none;
 	border-radius: 100px;
-	transition: all .3s ease;
+	transition: all .5s ease;
 
 }
 
