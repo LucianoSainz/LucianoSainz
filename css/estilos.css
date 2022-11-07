@@ -120,7 +120,7 @@ header{
 
 /*article*/
 
-.publications .titulo{
+.blog .titulo{
 	color: #005385;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -128,7 +128,7 @@ header{
     text-align: center;
 }
 
-.publications{
+.blog{
 	margin-bottom: 70px;
 }
 
