@@ -131,6 +131,9 @@ header{
 .blog{
 	margin-bottom: 70px;
 }
+.card{
+	width: 18rem;
+}
 
 /*contacto*/
 
@@ -257,15 +260,7 @@ header{
 		line-height: 50px;
 		font-size: 20px;
 	}
-		.redes-sociales .fa-twitter {
-			background: #1da1f2;
-		}
-	
-		.redes-sociales .fa-linkedin-in {
-			background: #0077B5;
-		}
-	
-		.redes-sociales .fa-github {
-			background: #333;
-		}
+	.card {
+		width: 11rem;
+	}
 }
